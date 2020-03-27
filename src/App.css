@@ -9,7 +9,6 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 1px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -233,10 +232,10 @@ h6 {
 
 /* services */
 .services {
-  padding: 3rem 0;
+  padding: 3rem 0 5rem;
 }
 .services {
-  background: var(--darkGrey);
+  background:  #ddeefc;
   text-align: center;
 }
 .services-center {
@@ -286,6 +285,10 @@ h6 {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 40px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  
 }
 @media screen and (min-width: 776px) {
   .featured-rooms-center {
