@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {FaCocktail, FaHiking, FaShuttleVan, FaBeer} from 'react-icons/fa';
+import {FaCocktail, FaHiking, FaShuttleVan, FaDumbbell} from 'react-icons/fa';
 import Title from './Title';
 
 
@@ -8,23 +8,23 @@ export default class Services extends Component {
         services:[
             {
                 icon: <FaCocktail />,
-                title: "free cocktails",
-                info: "Sint ex ullamco culpa ut culpa occaecat in quis."
+                title: "Free Cocktails",
+                info: "Choose from a variety of snacks and beverages at our nightly receptions."
             },
             {
                 icon: <FaHiking />,
                 title: "Endless Hiking",
-                info: "Sint ex ullamco culpa ut culpa occaecat in quis."
+                info: "Discover the treasures of our island and book your own free guide tour."
             },
             {
                 icon: <FaShuttleVan />,
                 title: "Free Shuttle",
-                info: "Sint ex ullamco culpa ut culpa occaecat in quis."
+                info: "Shuffles to the airport, downtown and the beach every day from 5am to 11pm."
             },
             {
-                icon: <FaBeer />,
-                title: "Strongest Beer",
-                info: "Sint ex ullamco culpa ut culpa occaecat in quis."
+                icon: <FaDumbbell />,
+                title: "Free Fitness Club",
+                info: "Enjoy our fitness club opened 24/7 with the latest technologies."
             }
         ]
     };

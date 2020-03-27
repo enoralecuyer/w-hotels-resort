@@ -107,6 +107,9 @@ h6 {
   cursor: pointer;
   outline: none;
 }
+.nav-logo {
+  height: 40px;
+}
 .nav-icon {
   font-size: 1.5rem;
   color: var(--primaryColor);
@@ -159,13 +162,13 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("./images/defaultBcg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./images/room-2.jpg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -230,7 +233,7 @@ h6 {
 
 /* services */
 .services {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .services {
   background: var(--darkGrey);
@@ -274,7 +277,7 @@ h6 {
 /* featured rooms */
 
 .featured-rooms {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .featured-rooms-center {
   width: 80vw;
