@@ -24,4 +24,4 @@ A Resort website built in React with filtering options for size, price and type.
 
 ## Authors
 
-* **Enora Lecuyer** 
+**Enora Lecuyer** 
