@@ -16,7 +16,6 @@ A Resort website built in React with filtering options for size, price and type.
 * [React-router-dom](https://www.npmjs.com/package/react-router-dom)
 * [React-icons](https://react-icons.github.io/react-icons/)
 * [Contentful](https://www.contentful.com/)
-* [Netlify](https://app.netlify.com/)
 
 ## Deploy Status Badge
 
